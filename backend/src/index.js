@@ -9,4 +9,4 @@ app.use(cors());
 app.use(express.json());    // para reconhecer o json. se não no post dá undefined, pq não reconhece o json.
 app.use(routes);
 
-app.listen(3000);
+app.listen(3333);
